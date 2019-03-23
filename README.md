@@ -1,4 +1,4 @@
-# ipspace_projects
+# ipSpace NetAuto Hands-on LAB
 Includes all the assignments for ipspace hands-on module
 
 ###Physical Lab setup information
