@@ -1,15 +1,14 @@
 # ipSpace NetAuto Hands-on LAB
 Includes all the assignments for ipspace hands-on module
-
-###Physical Lab setup information
+## Physical Lab setup information
 All Network Devices (Routers and Switches) are run on GNS3, which is hosted on VMware Workstation running on a physical PC (with 64 GB of RAM)
-####Network Devices
+### Network Devices
 - All virtual Routers used in the LAB are CSR1000v running csr1000v-universalk9.03.17.00.S.156-1.S-ext.qcow2 image
 - All virtual Switches used in the LAB are running IOSvL2  running vios_l2-adventerprisek9-m.03.2017.qcow2 image
-####Ansible Host
+### Ansible Host
 - Ansible is run on a virtual Centos6.9 box hosted on the same  VMware Workstation as the GNS3.
 
-##Lab Topology
+## Lab Topology
 
 ![alt text](https://www.lucidchart.com/publicSegments/view/6d9e3904-0bc5-4cca-9e39-872d05f06c29/image.png)
 
