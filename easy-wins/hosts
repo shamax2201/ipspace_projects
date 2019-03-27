@@ -1,0 +1,15 @@
+[p-routers]
+P1 ansible_host=10.10.1.51
+P2 ansible_host=10.10.1.52
+
+[pe-routers]
+PE1 ansible_host=10.10.1.61
+PE2 ansible_host=10.10.1.62
+PE3 ansible_host=10.10.1.63
+PE4 ansible_host=10.10.1.64
+
+[cpe-routers]
+SW1 ansible_host=10.10.1.71
+SW2 ansible_host=10.10.1.72
+SW3 ansible_host=10.10.1.73
+SW4 ansible_host=10.10.1.74
