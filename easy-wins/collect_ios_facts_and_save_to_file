@@ -1,0 +1,14 @@
+---
+ - name: Collect IOS Facts from Devices and Save them to files in JSON Format
+   hosts: all
+
+   vars:
+    - output_directory: output_directory
+
+   tasks:
+    - file:
+        path: {{output_directory}}
+        state: directory
+      run_once: true
+
+   ios_facts: provider
