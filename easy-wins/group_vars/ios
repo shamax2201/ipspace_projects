@@ -1,7 +1,7 @@
 ansible_connection: network_cli
 ansible_network_os: ios
-ansible_user: "{{ansible-cli-user}}"
-ansible_ssh_pass: "{{ansible-cli-password}}"
+ansible_user: "{{lab-user}}"
+ansible_ssh_pass: "{{lab-password}}"
 ansible_become: yes
 ansible_become_method: enable
-ansible_become_pass: "{{ansible-cli-password}}"
+ansible_become_pass: "{{lab-password}}"

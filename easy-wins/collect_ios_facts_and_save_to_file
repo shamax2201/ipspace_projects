@@ -3,11 +3,11 @@
    hosts: all
 
    vars:
-    - output_directory: output_directory
+    - output_directory: output-directory
 
    tasks:
     - file:
-        path: {{output_directory}}
+        path: "{{output_directory}}"
         state: directory
       run_once: true
 
