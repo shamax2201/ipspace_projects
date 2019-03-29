@@ -11,4 +11,11 @@
         state: directory
       run_once: true
 
-   ios_facts: provider
+    - ios_facts:
+      register: results
+
+    - copy:
+        content:  "{{results.ansible_facts}}"
+        dest:     "{{output_directory}}/{{inventory_hostname}}.json"
+
+
