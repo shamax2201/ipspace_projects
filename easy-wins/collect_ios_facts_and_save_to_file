@@ -2,6 +2,8 @@
  - name: Collect IOS Facts from Devices and Save them to files in JSON Format
    hosts: all
 
+
+
    vars:
     - output_directory: output-directory
 
@@ -12,6 +14,7 @@
       run_once: true
 
     - ios_facts:
+        ansible_connection: network_cl
       register: results
 
     - copy:
