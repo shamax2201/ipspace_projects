@@ -1,0 +1,4 @@
+ansible_connection: network_cli
+ansible_network_os: ios
+ansible_user: "{{cli_user}}"
+ansible_ssh_pass: "{{cli_pass}}"
