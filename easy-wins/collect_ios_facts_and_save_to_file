@@ -16,7 +16,7 @@
       register: results
 
     - copy:
-        content:  "{{results.ansible_facts}}"
+        content:  "{{results.ansible_facts | to_nice_yaml(indent=4)}}"
         dest:     "{{output_directory}}/{{inventory_hostname}}.json"
 
 
